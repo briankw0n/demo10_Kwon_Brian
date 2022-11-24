@@ -16,7 +16,8 @@ var uiConfig = {
             name: user.displayName,
             email: user.email,
             country: "Canada",                         
-						school: "BCIT"  
+						school: "BCIT",
+            city: "Port Moody" 
           }).then(function () {
             console.log("New user added to firestore");
             window.location.assign("main.html");
